@@ -1,16 +1,16 @@
 import "./App.css";
-import Login from "./pages/login";
-import Sidebar from "./components/sidebar";
+import Login from "./pages/Login";
 import Tablepro from "./components/tablepro";
 import { Routes, Route } from "react-router-dom";
+import Modal from "./components/modal";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Login/>}></Route>
-        <Route path="/side" element={<Sidebar/>}></Route>
         <Route path="/table" element={<Tablepro/>}></Route>
+        <Route path="/modal" element={<Modal/>}></Route>
       </Routes>
     </div>
   );
