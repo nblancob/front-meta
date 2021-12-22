@@ -2,6 +2,7 @@ import Card from "react-bootstrap/Card";
 import home from "../styles/Home.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,9 +28,18 @@ const Home = () => {
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
-              <Button variant="primary" type="submit">
-                Submit
+              <Button className="ingresar-btn" variant="success" type="submit">
+                Ingresar
               </Button>
+              <Link to="/registrer">
+                <Button
+                  className="registrar-btn"
+                  variant="primary"
+                  type="submit"
+                >
+                  Registrarse
+                </Button>
+              </Link>
             </Form>
           </Card.Body>
         </Card>

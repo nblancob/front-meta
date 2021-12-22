@@ -15,10 +15,11 @@ body,html{
 }
 .Trash-btn{
     background-color: #b7094c;
-   
+    
 }
 .Pencil-btn{
-    background-color: #0091ad;
+    background-color: #00ad3a;
+    border-radius: 50%;
 }
 .Info-btn{
     background-color: #5c4d7d;

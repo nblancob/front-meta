@@ -1,14 +1,29 @@
+body,
+html {
+  background-color: #0091ad;
+  background-image: url(../img/fondo.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100%;
+}
+
 .abs-center {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
-
+.ingresar-btn {
+  width: 100%;
+  margin-bottom: 3%;
+}
+.registrar-btn {
+  width: 100%;
+}
 .card {
   width: 40%;
   height: 40%;
-  background: linear-gradient(53deg, #aad0f1, #64b5f6, #2196f3);
+  background: linear-gradient(53deg, #d42878, #1273c4, #7f14a0);
   box-shadow: 10px 5px 5px black;
   border-radius: 2%;
   margin-bottom: 0;
@@ -17,8 +32,8 @@
   background: linear-gradient(
       123.61deg,
       #c06e8d -1.85%,
-      #9982ca 47.63%,
-      #6fa5af 100%
+      #6637ca 47.63%,
+      #5913da 100%
     )
     no-repeat fixed;
 }
